@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Luke Skywalker",
+        "lightsaberColor": "Green",
+        "type": "Jedi"
+    },
+    {
+        "name": "Yoda",
+        "lightsaberColor": "Green",
+        "type": "Jedi"
+    },
+    {
+        "name": "Darth Vader",
+        "lightsaberColor": "Red",
+        "type": "Sith"
+    },
+    {
+        "name": "Obi-Wan Kenobi",
+        "lightsaberColor": "Blue",
+        "type": "Jedi"
+    },
+    {
+        "name": "Darth Maul",
+        "lightsaberColor": "Red",
+        "type": "Sith"
+    },
+    {
+        "name": "Mace Windu",
+        "lightsaberColor": "Purple",
+        "type": "Jedi"
+    }
+]

@@ -1,0 +1,3 @@
+[settings]
+virtualenvs.in-project = true
+virtualenvs.path = ".venv"
