@@ -1,18 +1,12 @@
 from airflow.decorators import task, dag
-from datetime import datetime, timedelta
+from datetime import datetime
 
 
 @dag(
     schedule=None,
     start_date=datetime(2022, 1, 1),
     catchup=False,
-    default_args={
-        "start_date": datetime(2022, 1, 1),
-        "retries": 1,
-        "retry_delay": timedelta(minutes=5),
-    },
-    dag_id="simple",
-    tags=["1_simple_dag"],
+    dag_id="simple"
 )
 def simple():
     @task
